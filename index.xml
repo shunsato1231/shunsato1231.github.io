@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8ble.net</title>
+    <link>http://hogehoge.com/index.xml</link>
+    <description>Recent content on 8ble.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <atom:link href="http://hogehoge.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://hogehoge.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://hogehoge.com/about/</guid>
+      <description>&lt;article class=&#39;Profile__Aboutme&#39;&gt;
+  &lt;h1 class=&#39;Profile__ContentsH1&#39;&gt;About me&lt;/h1&gt;
+  &lt;div class=&#39;Profile__Aboutme__Left&#39;&gt;
+    &lt;h2 class=&#39;Profile__Aboutme__Me&#39;&gt;
+      &lt;img alt=&#39;顔写真&#39; class=&#39;Profile__Aboutme__Image&#39; height=&#39;150&#39; src=&#39;../img/profile.jpg&#39; width=&#39;150&#39;&gt;
+      &lt;span class=&#39;Profile__Aboutme__Name&#39;&gt;佐藤 駿&lt;/span&gt;
+      &lt;small&gt;Satou Shun&lt;/small&gt;
+    &lt;/h2&gt;
+    &lt;div class=&#39;Profile__Skill&#39;&gt;
+      &lt;h2 class=&#39;Profile__ContentsH2&#39;&gt;Skill&lt;/h2&gt;
+      &lt;div&gt;
+        &lt;span&gt;HTML&lt;/span&gt;
+        &lt;span&gt;Haml&lt;/span&gt;
+        &lt;span&gt;CSS&lt;/span&gt;
+        &lt;span&gt;Sass&lt;/span&gt;
+        &lt;span&gt;Compass&lt;/span&gt;
+        &lt;span&gt;Javascript&lt;/span&gt;
+        &lt;span&gt;C言語&lt;/span&gt;
+        &lt;span&gt;Java&lt;/span&gt;
+        &lt;span&gt;Tex&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#39;Profile__Aboutme__Right&#39;&gt;
+    &lt;div class=&#39;Profile__Aboutme__Text&#39;&gt;
+      &lt;p&gt;平成7年生まれ．高専出身の大学三年生．北海道出身.&lt;/p&gt;
+      &lt;p&gt;小学6年生のとき，レンタルブログサービスのカスタマイズにはまったことがきっかけでWeb製作に興味を持つ．高専進学後，&lt;a href=&#39;http://www.ailink-web.co.jp&#39; target=&#39;_blank&#39;&gt;株式会社アイリンク&lt;/a&gt;でのインターンシップ，
+      &lt;a href=&#39;http://theclip.jp&#39; target=&#39;_blank&#39;&gt;THE CLIP, Inc.&lt;/a&gt;
+      でのアルバイトを経験．&lt;/p&gt;
+      &lt;p&gt;大学では工学部で情報工学を学んでいる．&lt;/p&gt;
+      &lt;p&gt;小学校3年生から続けているトランペットが趣味．&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#39;Profile__Like&#39;&gt;
+      &lt;h2 class=&#39;Profile__ContentsH2&#39;&gt;Like&lt;/h2&gt;
+      &lt;ul class=&#39;Profile__Like__Left&#39;&gt;
+        &lt;h3&gt;食べ物&lt;/h3&gt;
+        &lt;ul&gt;
+          &lt;li&gt;マカロン&lt;/li&gt;
+          &lt;li&gt;オムライス&lt;/li&gt;
+          &lt;li&gt;カレーライス&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h3&gt;アイドル&lt;/h3&gt;
+        &lt;ul&gt;
+          &lt;li&gt;モーニング娘。(佐藤優樹，小田さくら)&lt;/li&gt;
+          &lt;li&gt;カントリーガールズ(稲葉愛香，嗣永桃子)&lt;/li&gt;
+          &lt;li&gt;私立恵比寿中学(廣田あいか)&lt;/li&gt;
+          &lt;li&gt;Hey!Say!JUMP(有岡大貴)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/ul&gt;
+      &lt;ul class=&#39;Profile__Like__Right&#39;&gt;
+        &lt;h3&gt;その他&lt;/h3&gt;
+        &lt;li&gt;トランペット&lt;/li&gt;
+        &lt;li&gt;休日の昼寝&lt;/li&gt;
+        &lt;li&gt;買い物&lt;/li&gt;
+        &lt;li&gt;散歩&lt;/li&gt;
+        &lt;li&gt;YouTube&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+&lt;article class=&#39;Profile__Timeline&#39;&gt;
+  &lt;h1 class=&#39;Profile__ContentsH1&#39;&gt;Bigraphy&lt;/h1&gt;
+  &lt;div class=&#39;Profile__Timeline__Wrap&#39;&gt;
+    &lt;div class=&#39;Profile__Timeline__Bar&#39;&gt;&lt;/div&gt;
+    &lt;section class=&#39;Profile__Timeline__Section&#39;&gt;
+      &lt;h1 class=&#39;Profile__Timeline__Year&#39;&gt;1995&lt;/h1&gt;
+      &lt;div class=&#39;Profile__Timeline__Contents&#39;&gt;
+        &lt;h2&gt;北海道旭川市に生まれる&lt;/h2&gt;
+        北海道第2都市の旭川市で誕生．大晦日生まれ．しかも破水による緊急出産だったという人騒がせな誕生でした(笑)
+      &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&#39;Profile__Timeline__Section&#39;&gt;
+      &lt;h1 class=&#39;Profile__Timeline__Year&#39;&gt;1997&lt;/h1&gt;
+      &lt;div class=&#39;Profile__Timeline__Contents&#39;&gt;
+        &lt;h2&gt;美瑛町に引っ越す&lt;/h2&gt;
+        隣町の美瑛町にある父の実家に引っ越す．大学進学するまで美瑛町で過ごす．MacOSやiOSの壁紙になっている青い池がある町です．
+      &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&#39;Profile__Timeline__Section&#39;&gt;
+      &lt;h1 class=&#39;Profile__Timeline__Year&#39;&gt;2006&lt;/h1&gt;
+      &lt;div class=&#39;Profile__Timeline__Contents&#39;&gt;
+        &lt;h2&gt;ネットにはまる．HTMLとかCSSをいじり始める．&lt;/h2&gt;
+        当時小学5年生．父の勧めでオンラインゲームにどはまりし，それ以来ネット中毒のようにパソコンばっかりいじるようになる．趣味でブログを書いたことがきっかけでHTMLとCSSをいじることにはまる．ブログのテンプレート作るのが主．
+      &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&#39;Profile__Timeline__Section&#39;&gt;
+      &lt;h1 class=&#39;Profile__Timeline__Year&#39;&gt;2011&lt;/h1&gt;
+      &lt;div class=&#39;Profile__Timeline__Contents&#39;&gt;
+        &lt;h2&gt;旭川工業高等専門学校 システム制御情報工学科　入学&lt;/h2&gt;
+        システム制御情報工学科の一期生．情報系の学科に入りたかったものの，旭川高専にはなかったので一番近そうな学科に入学．吹奏楽部に所属しながらなんとなく5年間を過ごす．
+      &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&#39;Profile__Timeline__Section&#39;&gt;
+      &lt;h1 class=&#39;Profile__Timeline__Year&#39;&gt;2014&lt;/h1&gt;
+      &lt;div class=&#39;Profile__Timeline__Contents&#39;&gt;
+        &lt;h2&gt;株式会社アイリンクでインターンシップ&lt;/h2&gt;
+        地元旭川市のWeb制作会社でインターンシップ経験．ショッピングサイトのスマートフォンページのデザイン・コーディング，既存サイトのメンテナンスなどを担当．
+      &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&#39;Profile__Timeline__Section&#39;&gt;
+      &lt;h1 class=&#39;Profile__Timeline__Year&#39;&gt;2015&lt;/h1&gt;
+      &lt;div class=&#39;Profile__Timeline__Contents&#39;&gt;
+        &lt;h2&gt;THE CLIP, Inc.でアルバイト&lt;/h2&gt;
+        リモートでアルバイトを経験．マークアップを担当した．
+      &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&#39;Profile__Timeline__Section&#39;&gt;
+      &lt;h1 class=&#39;Profile__Timeline__Year&#39;&gt;2016&lt;/h1&gt;
+      &lt;div class=&#39;Profile__Timeline__Contents&#39;&gt;
+        &lt;h2&gt;室蘭工業大学 情報電子工学系学科 情報システム学コース 3年次編入&lt;/h2&gt;
+        イマココ．室蘭市の不便さに不満を持ちつつ大学生活を謳歌中．
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
