@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog-rsses on 8ble.net</title>
+    <link>https://shunsato1231.github.io/blog/index.xml</link>
+    <description>Recent content in Blog-rsses on 8ble.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 12 Dec 2016 00:08:57 +0900</lastBuildDate>
+    <atom:link href="https://shunsato1231.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo＋GitHub Pagesでブログ公開してみた</title>
+      <link>https://shunsato1231.github.io/blog/2016/12/hello/</link>
+      <pubDate>Mon, 12 Dec 2016 00:08:57 +0900</pubDate>
+      
+      <guid>https://shunsato1231.github.io/blog/2016/12/hello/</guid>
+      <description>
+
+&lt;p&gt;自分のサイトと防備録的なものが欲しかったので，HugoとGitHub Pageをつかってブログを作りました．&lt;/p&gt;
+
+&lt;h2 id=&#34;hugoを選んだ理由&#34;&gt;Hugoを選んだ理由&lt;/h2&gt;
+
+&lt;p&gt;始めはMiddleManを使ってみようと思ったのですが，どうもブログ向きじゃないのか思うようにいかず．
+最近少しだけGO言語を触る機会があったのと，流行っているからという理由でHugoを使うことにしました．
+あと，ビルドが早いと聞いたのでそれも決定的でした．&lt;/p&gt;
+
+&lt;h2 id=&#34;このブログを公開するまでにやったこと&#34;&gt;このブログを公開するまでにやったこと&lt;/h2&gt;
+
+&lt;h3 id=&#34;テーマ作成&#34;&gt;テーマ作成&lt;/h3&gt;
+
+&lt;p&gt;gulpでhamlとsassを使ってテーマの元となるHTMLファイルとCSSファイルを生成．生成されたHTMLファイルをGo Templateに組み込んで作りました．hamlとかsassとかに対応していないのがちょっと面倒．あと，どうしても納得できない変なフォルダ構成になっているところがちらほら&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;ドキュメントは英語しかありませんが，検索すると日本語の情報が結構出てくるので，そこまで苦労せずにできました．&lt;/p&gt;
+
+&lt;h3 id=&#34;記事を書く&#34;&gt;記事を書く&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ローカル上で記事を書く．リアルタイムプレビューで確認．&lt;/li&gt;
+&lt;li&gt;GitHubへ&lt;code&gt;$git push&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;公開される&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;たったこれだけです．Wordpressとかレンタルブログみたいに，ブラウザからログインして編集画面に行って&amp;hellip;という手間がないのですごく楽．大抵いままではテキストエディタに下書きしてから，ブラウザにコピペで記事を書いていたので手間が省けました．公開までもターミナルからすぐにできるので本当にお手軽です．mdでかけるのも魅力的．&lt;/p&gt;
+
+&lt;p&gt;あと，ローカルサーバー起動＋ファイル更新で自動リロードしてくれるという，gulpのlivereloadみたいな機能が初めから付いています．
+表示確認しながら記事を書けるのでとても重宝してます．&lt;/p&gt;
+
+&lt;h2 id=&#34;これから追加したい機能&#34;&gt;これから追加したい機能&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;記事公開したらTwitterとFaceBook更新する&lt;/li&gt;
+&lt;li&gt;Worksページの作成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;という感じで，新しくブログを作った話でした．&lt;/p&gt;
+
+&lt;p&gt;ブログというものをやるのが久々すぎて，文章書くのにすごい苦労しました&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

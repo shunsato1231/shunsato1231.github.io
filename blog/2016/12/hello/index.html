@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+
+<title>Hugo＋GitHub Pagesでブログ公開してみた | 8ble.net</title>
+
+<meta name="generator" content="">
+<meta name="author" content="">
+<meta property="og:locale" content="ja">
+<meta property="fb:app_id" content="facebookのAppIDを入れる">
+<meta property="og:title" content="Hugo＋GitHub Pagesでブログ公開してみた">
+<meta property="og:url" content="https://shunsato1231.github.io/blog/2016/12/hello/">
+<meta property="og:site_name" content="8ble.net">
+
+
+
+<meta name="description" content="自分のサイトと防備録的なものが欲しかったので，HugoとGitHub Pageをつかってブログを作りました． Hugoを選んだ理由 始めはMidd...">
+<meta property="og:description" content="自分のサイトと防備録的なものが欲しかったので，HugoとGitHub Pageをつかってブログを作りました． Hugoを選んだ理由 始めはMidd...">
+<meta name="twitter:description" content="自分のサイトと防備録的なものが欲しかったので，HugoとGitHub Pageをつかってブログを作りました． Hugoを選んだ理由 始めはMidd...">
+
+
+
+
+<meta property="og:image" content="https://shunsato1231.github.io/images/ogp.png">
+<meta property="twitter:image" content="https://shunsato1231.github.io/images/ogp.png">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:article:published_time" content="2016-12-12T00:08:57&#43;09:00">
+<meta property="og:article:tag" content="Hugo" /><meta property="og:article:tag" content="GitHub" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@_shun_sato_">
+<meta name="twitter:creator" content="@_shun_sato_">
+<meta name="twitter:title" content="Hugo＋GitHub Pagesでブログ公開してみた">
+<meta name="twitter:url" content="https://shunsato1231.github.io/blog/2016/12/hello/">
+
+
+
+<link rel="index" href="/"/>
+
+
+
+
+
+
+
+
+
+<link href="https://shunsato1231.github.io/index.xml" rel="alternate" type="application/rss+xml" title="8ble.net">
+
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' media='all' rel='stylesheet'>
+    <script src='http://code.jquery.com/jquery.js' type='text/javascript'></script>
+    <script src='https://shunsato1231.github.io/js/script.js' type='text/javascript'></script>
+    <script src='https://shunsato1231.github.io/js/Chart.min.js' type='text/javascript'></script>
+    <script src='https://shunsato1231.github.io/js/jquery.fittext.js' type='text/javascript'></script>
+    <script src='https://shunsato1231.github.io/js/prism.js' type='text/javascript'></script>
+    <script src='https://shunsato1231.github.io/js/pager.js' type='text/javascript'></script>
+    <link href='https://shunsato1231.github.io/css/style.css' media='all' rel='stylesheet'>
+    <link href='https://shunsato1231.github.io/css/prism.css' media='all' rel='stylesheet'>
+  </head>
+
+  <body>
+    <header class='Head'>
+  <div class='Head__Wrap'>
+    <div class='Head__LoadingBar' id='js-loadingBar'></div>
+    <div class='Head__ToTop' id='js-toTop'></div>
+    <h1 class='Head__SiteTitle'>
+      <a href='https://shunsato1231.github.io/'><span class='Head__SiteTitle'>8ble.net</span></a>
+    </h1>
+  </div>
+</header>
+
+    <input id='navTgl' type='checkbox'>
+<label class='Head__Toggle--Open' for='navTgl'>
+  <div class='Head__Toggle__Line'></div>
+  <div class='Head__Toggle__Line'></div>
+  <div class='Head__Toggle__Line'></div>
+</label>
+<label class='Head__Toggle--Close' for='navTgl'></label>
+<nav class='GlobalNavi'>
+  <ul>
+    <a href='https://shunsato1231.github.io/'><li>
+      <i class='fa fa-home'></i>
+      HOME
+    </li></a>
+    <a href='https://shunsato1231.github.io/about'><li>
+      <i class='fa fa-male'></i>
+      ABOUT
+    </li></a>
+    <a href='https://shunsato1231.github.io/blog'><li class='current'>
+      <i class='fa fa-book'></i>
+      BLOG
+    </li></a>
+  </ul>
+  <div class='GlobalNavi__Profile'>
+    <img alt='顔写真' class='GlobalNavi__Profile__Img' height='70' src='https://shunsato1231.github.io/img/profile.jpg' width='70'>
+    <div class='GlobalNavi__Profile__Name'>
+      <span class='jp'>佐藤 駿</span>
+      <span class='en'>(Shun Sato)</span>
+    </div>
+    <div class='GlobalNavi__Profile__Txt'>
+      平成7年生まれ．高専出身の大学三年生．北海道出身.
+    </div>
+  </div>
+  <div class='GlobalNavi__Icon'>
+    <a target='_blank' href='https://twitter.com/_shun_sato_'><i class='twitter'></i></a>
+    <a target='_blank' href='https://www.facebook.com/sato.shun.16'><i class='facebook'></i></a>
+    <a href=''><i class='mail'></i></a>
+  </div>
+</nav>
+
+
+    
+   
+    <div class='Wrapper'>
+      <article class='SingleArticle'>
+        <div class='SingleArticle__Meta'>
+          <h1 class='SingleArticle__Title'>Hugo＋GitHub Pagesでブログ公開してみた</h1>
+          <div class='SingleArticle__Date'>
+            2016.12.12
+          </div>
+          
+          <div class='SingleArticle__Category'>
+             <a href="/categories/diary/">diary</a>
+          </div>
+          
+
+          
+          <div class='SingleArticle__Tags'>
+             <a href="/tags/Hugo/">Hugo</a> <a href="/tags/GitHub/">GitHub</a>
+          </div>
+          
+        </div>
+        <div class='SingleArticle__Text'>
+          
+
+<p>自分のサイトと防備録的なものが欲しかったので，HugoとGitHub Pageをつかってブログを作りました．</p>
+
+<h2 id="hugoを選んだ理由">Hugoを選んだ理由</h2>
+
+<p>始めはMiddleManを使ってみようと思ったのですが，どうもブログ向きじゃないのか思うようにいかず．
+最近少しだけGO言語を触る機会があったのと，流行っているからという理由でHugoを使うことにしました．
+あと，ビルドが早いと聞いたのでそれも決定的でした．</p>
+
+<h2 id="このブログを公開するまでにやったこと">このブログを公開するまでにやったこと</h2>
+
+<h3 id="テーマ作成">テーマ作成</h3>
+
+<p>gulpでhamlとsassを使ってテーマの元となるHTMLファイルとCSSファイルを生成．生成されたHTMLファイルをGo Templateに組み込んで作りました．hamlとかsassとかに対応していないのがちょっと面倒．あと，どうしても納得できない変なフォルダ構成になっているところがちらほら&hellip;</p>
+
+<p>ドキュメントは英語しかありませんが，検索すると日本語の情報が結構出てくるので，そこまで苦労せずにできました．</p>
+
+<h3 id="記事を書く">記事を書く</h3>
+
+<ol>
+<li>ローカル上で記事を書く．リアルタイムプレビューで確認．</li>
+<li>GitHubへ<code>$git push</code></li>
+<li>公開される</li>
+</ol>
+
+<p>たったこれだけです．Wordpressとかレンタルブログみたいに，ブラウザからログインして編集画面に行って&hellip;という手間がないのですごく楽．大抵いままではテキストエディタに下書きしてから，ブラウザにコピペで記事を書いていたので手間が省けました．公開までもターミナルからすぐにできるので本当にお手軽です．mdでかけるのも魅力的．</p>
+
+<p>あと，ローカルサーバー起動＋ファイル更新で自動リロードしてくれるという，gulpのlivereloadみたいな機能が初めから付いています．
+表示確認しながら記事を書けるのでとても重宝してます．</p>
+
+<h2 id="これから追加したい機能">これから追加したい機能</h2>
+
+<ul>
+<li>記事公開したらTwitterとFaceBook更新する</li>
+<li>Worksページの作成</li>
+</ul>
+
+<hr />
+
+<p>という感じで，新しくブログを作った話でした．</p>
+
+<p>ブログというものをやるのが久々すぎて，文章書くのにすごい苦労しました&hellip;</p>
+
+        </div>
+        <div class='SingleArticle__Share'>
+          <div class='SingleArticle__ShareWrap'>
+            <div class='SingleArticle__ShareTitle'>Share on</div>
+            <div class='SingleArticle__ShareBlock'>
+              <div class='SingleArticle__ShareTwitter'>
+                <i class="fa fa-twitter"></i>
+                <a href='http://twitter.com/intent/tweet?text=Hugo%ef%bc%8bGitHub%20Pages%e3%81%a7%e3%83%96%e3%83%ad%e3%82%b0%e5%85%ac%e9%96%8b%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f%20%7C%208ble.net%20https%3a%2f%2fshunsato1231.github.io%2fblog%2f2016%2f12%2fhello%2f%20%40_shun_sato_'>ツイートする</a>
+              </div>
+              <div class='SingleArticle__ShareFacebook'>
+                <i class="fa fa-facebook"></i>
+                <a href='https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fshunsato1231.github.io%2fblog%2f2016%2f12%2fhello%2f'>シェアする</a>
+              </div>
+            </div>
+            <div class='SingleArticle__ShareBlock'>
+              <div class='SingleArticle__ShareHatebu'>
+                <i class="fa fa-hatena"></i>
+                <a href='http://b.hatena.ne.jp/entry/add/https://shunsato1231.github.io/blog/2016/12/hello/'>はてぶする</a>
+              </div>
+              <div class='SingleArticle__ShareGoogle'>
+                <i class="fa fa-google-plus"></i>
+                <a href='https://plus.google.com/share?url=https%3a%2f%2fshunsato1231.github.io%2fblog%2f2016%2f12%2fhello%2f'>共有する</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='SingleArticle__Breadcrumbs'>
+          <ol class='SingleArticle__BreadcrumbsList' typeof='v:Breadcrumb'>
+            <i class="fa fa-link"></i>
+            <span rel='v:child' typeof='v:Breadcrumb'>
+              <a href='https://shunsato1231.github.io/' property='v:title' rel='v:url'>8ble.net</a>
+            </span>
+            <span>&frasl;</span>
+            <span rel='v:child' typeof='v:Breadcrumb'>
+              <a href='https://shunsato1231.github.io/blog' property='v:title' rel='v:url'>Blog</a>
+            </span>
+            <span>&frasl;</span>
+            <span rel='v:child' typeof='v:Breadcrumb'>
+              
+               <a href="/categories/diary/" property='v:title' rel='v:url'>diary</a>
+              
+            </span>
+            <span>&frasl;</span>
+            <span rel='v:child' typeof='v:Breadcrumb'>Hugo＋GitHub Pagesでブログ公開してみた</span>
+          </ol>
+        </div>
+      </article>
+      <div class='Pager'>
+        <a class='Pager__Left', href='https://shunsato1231.github.io/blog'>
+          <i class="fa fa-long-arrow-left"></i>
+          BACK TO BLOG
+        </a>
+      </div>
+      <footer class='Footer'>
+        <div class='Footer__Wrap'>
+          <p class='Footer__Copy'>© 2016 8ble.net All Rights Reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
