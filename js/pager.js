@@ -1,5 +1,4 @@
-function　pager(current, all, adress){
-  var url     = adress.toLowerCase();
+function　pager(current, all, url){
   var baseurl = url + '/page/';
   var prev    = current - 1;
   var prev2   = current - 2;
