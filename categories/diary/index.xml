@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>8ble.net</title>
-    <link>https://shunsato1231.github.io/categories/diary/index.xml</link>
-    <description>Recent content on 8ble.net</description>
+    <title>8ble.me</title>
+    <link>http://shunsato1231.github.io/categories/diary/index.xml</link>
+    <description>Recent content on 8ble.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <atom:link href="https://shunsato1231.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://shunsato1231.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hugo＋GitHub Pagesでブログ公開してみた</title>
-      <link>https://shunsato1231.github.io/blog/2016/12/hello/</link>
+      <link>http://shunsato1231.github.io/blog/2016/12/hello/</link>
       <pubDate>Mon, 12 Dec 2016 00:08:57 +0900</pubDate>
       
-      <guid>https://shunsato1231.github.io/blog/2016/12/hello/</guid>
+      <guid>http://shunsato1231.github.io/blog/2016/12/hello/</guid>
       <description>
 
 &lt;p&gt;自分のサイトと防備録的なものが欲しかったので，HugoとGitHub Pageをつかってブログを作りました．&lt;/p&gt;
