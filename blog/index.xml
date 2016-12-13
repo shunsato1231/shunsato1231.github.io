@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog-rsses on 8ble.me</title>
-    <link>8ble.me/blog/index.xml</link>
+    <link>shunsato1231.github.io/blog/index.xml</link>
     <description>Recent content in Blog-rsses on 8ble.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 13 Dec 2016 23:26:41 +0900</lastBuildDate>
-    <atom:link href="8ble.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="shunsato1231.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>riot.js＋sass＋gulp で開発する</title>
-      <link>/8ble.me/blog/2016/12/developed-width-riotjs/</link>
+      <link>/shunsato1231.github.io/blog/2016/12/developed-width-riotjs/</link>
       <pubDate>Tue, 13 Dec 2016 23:26:41 +0900</pubDate>
       
-      <guid>/8ble.me/blog/2016/12/developed-width-riotjs/</guid>
+      <guid>/shunsato1231.github.io/blog/2016/12/developed-width-riotjs/</guid>
       <description>&lt;p&gt;最近riot.jsで開発する機会があったので，その時に作った環境について書きます．
 &lt;/p&gt;
 
@@ -246,10 +246,10 @@ gulp-plumberつかってるけどjsファイルにエラーが起きるとgulp�
     
     <item>
       <title>独自ドメインを取得しました</title>
-      <link>/8ble.me/blog/2016/12/my-domain/</link>
+      <link>/shunsato1231.github.io/blog/2016/12/my-domain/</link>
       <pubDate>Tue, 13 Dec 2016 20:29:15 +0900</pubDate>
       
-      <guid>/8ble.me/blog/2016/12/my-domain/</guid>
+      <guid>/shunsato1231.github.io/blog/2016/12/my-domain/</guid>
       <description>&lt;p&gt;&lt;em&gt;8ble.me&lt;/em&gt; で独自ドメイン取得しました!
 &lt;/p&gt;
 
@@ -287,10 +287,10 @@ gulp-plumberつかってるけどjsファイルにエラーが起きるとgulp�
     
     <item>
       <title>Hugo＋GitHub Pagesでブログ公開してみた</title>
-      <link>/8ble.me/blog/2016/12/hello/</link>
+      <link>/shunsato1231.github.io/blog/2016/12/hello/</link>
       <pubDate>Mon, 12 Dec 2016 00:08:57 +0900</pubDate>
       
-      <guid>/8ble.me/blog/2016/12/hello/</guid>
+      <guid>/shunsato1231.github.io/blog/2016/12/hello/</guid>
       <description>&lt;p&gt;自分のサイトと防備録的なものが欲しかったので，HugoとGitHub Pageをつかってブログを作りました．
 &lt;/p&gt;
 

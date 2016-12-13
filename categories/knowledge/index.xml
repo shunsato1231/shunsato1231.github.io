@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>8ble.me</title>
-    <link>8ble.me/categories/knowledge/index.xml</link>
+    <link>shunsato1231.github.io/categories/knowledge/index.xml</link>
     <description>Recent content on 8ble.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <atom:link href="8ble.me/categories/knowledge/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="shunsato1231.github.io/categories/knowledge/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>riot.js＋sass＋gulp で開発する</title>
-      <link>/8ble.me/blog/2016/12/developed-width-riotjs/</link>
+      <link>/shunsato1231.github.io/blog/2016/12/developed-width-riotjs/</link>
       <pubDate>Tue, 13 Dec 2016 23:26:41 +0900</pubDate>
       
-      <guid>/8ble.me/blog/2016/12/developed-width-riotjs/</guid>
+      <guid>/shunsato1231.github.io/blog/2016/12/developed-width-riotjs/</guid>
       <description>&lt;p&gt;最近riot.jsで開発する機会があったので，その時に作った環境について書きます．
 &lt;/p&gt;
 
