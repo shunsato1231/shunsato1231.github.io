@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog-rsses on 8ble.me</title>
-    <link>shunsato1231.github.io/blog/index.xml</link>
-    <description>Recent content in Blog-rsses on 8ble.me</description>
+    <title>8ble.me</title>
+    <link>shunsato1231.github.io/tags/jade/index.xml</link>
+    <description>Recent content on 8ble.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 13 Dec 2016 23:26:41 +0900</lastBuildDate>
-    <atom:link href="shunsato1231.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="shunsato1231.github.io/tags/jade/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>riot.js＋sass＋gulp で開発する</title>
@@ -242,98 +241,6 @@ html(lang = &#39;ja&#39;)
 
 &lt;p&gt;たいしたことなんもやってないけどgulp初めてだったからここまでやるのに時間かかった．
 gulp-plumberつかってるけどjsファイルにエラーが起きるとgulpが落ちます．解決策が分かる人いたらコメント下さい．&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>独自ドメインを取得しました</title>
-      <link>/shunsato1231.github.io/blog/2016/12/my-domain/</link>
-      <pubDate>Tue, 13 Dec 2016 20:29:15 +0900</pubDate>
-      
-      <guid>/shunsato1231.github.io/blog/2016/12/my-domain/</guid>
-      <description>&lt;p&gt;&lt;em&gt;8ble.me&lt;/em&gt; で独自ドメイン取得しました!
-&lt;/p&gt;
-
-&lt;h2 id=&#34;以外とてこずった&#34;&gt;以外とてこずった&lt;/h2&gt;
-
-&lt;p&gt;お名前.comでドメイン取得して，DNSにGehirn Infrastructure Serviceを使ってZone Apexで公開しています．
-そんなに手間でもないし時間もかからないはずが凡ミスでかなり迷いまくって途方に暮れそうになったのでメモしておこう&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;お名前-comの設定画面わかりにくすぎるでしょ&#34;&gt;お名前.comの設定画面わかりにくすぎるでしょ&lt;/h3&gt;
-
-&lt;p&gt;お名前.comはなんだか赤色画面でゴテゴテしたバナーがたくさんあってショッピングサイトみたい．しかも設定画面わかりにくすぎです．
-外部のDNSを使う場合，ネームサーバの設定が完了したら，その後設定画面から設定の確認ができません．&lt;/p&gt;
-
-&lt;p&gt;ちゃんとメールが来るけど設定できてるのかどうか不安になりました．見落としてるのかもしれないけど&amp;hellip;
-にしてもわかりにくいです．&lt;/p&gt;
-
-&lt;h3 id=&#34;gehirn側でも戸惑いまくった&#34;&gt;Gehirn側でも戸惑いまくった&lt;/h3&gt;
-
-&lt;p&gt;Gehirnではログインにワンタイムパスワードが使われているのですが，これに関しても迷いまくって1時間くらいログインできなかった．
-6桁の数字のパスワードなんですが，確認画面では3桁目と4桁目の間にスペースがあって，この &lt;strong&gt;スペースがログインできない原因&lt;/strong&gt; でした．
-さすがにこれに気づかないで1時間迷うのはおマヌケだけど，これから使うひとはちゃんと詰めてください笑&lt;/p&gt;
-
-&lt;p&gt;あと，Aレコードを設定する時，&lt;strong&gt;エイリアス先のアドレスの最後に &amp;ldquo; . &amp;rdquo; をつけるのを忘れたらだめ&lt;/strong&gt; です．勝手に補完されてしまいます．これに気づくのに1日を費やした．&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;というわけで無駄に苦労しましたが，なんとか独自ドメインで公開することができましたとさ．&lt;/p&gt;
-
-&lt;h2 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-2/&#34;&gt;GitHub Pagesでブログを作る#2 | TANKSUZUKI.COM&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hugo＋GitHub Pagesでブログ公開してみた</title>
-      <link>/shunsato1231.github.io/blog/2016/12/hello/</link>
-      <pubDate>Mon, 12 Dec 2016 00:08:57 +0900</pubDate>
-      
-      <guid>/shunsato1231.github.io/blog/2016/12/hello/</guid>
-      <description>&lt;p&gt;自分のサイトと防備録的なものが欲しかったので，HugoとGitHub Pageをつかってブログを作りました．
-&lt;/p&gt;
-
-&lt;h2 id=&#34;hugoを選んだ理由&#34;&gt;Hugoを選んだ理由&lt;/h2&gt;
-
-&lt;p&gt;始めはMiddleManを使ってみようと思ったのですが，どうもブログ向きじゃないのか思うようにいかず．
-最近少しだけGO言語を触る機会があったのと，流行っているからという理由でHugoを使うことにしました．
-あと，ビルドが早いと聞いたのでそれも決定的でした．&lt;/p&gt;
-
-&lt;h2 id=&#34;このブログを公開するまでにやったこと&#34;&gt;このブログを公開するまでにやったこと&lt;/h2&gt;
-
-&lt;h3 id=&#34;テーマ作成&#34;&gt;テーマ作成&lt;/h3&gt;
-
-&lt;p&gt;gulpでhamlとsassを使ってテーマの元となるHTMLファイルとCSSファイルを生成．生成されたHTMLファイルをGo Templateに組み込んで作りました．hamlとかsassとかに対応していないのがちょっと面倒．あと，どうしても納得できない変なフォルダ構成になっているところがちらほら&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;ドキュメントは英語しかありませんが，検索すると日本語の情報が結構出てくるので，そこまで苦労せずにできました．&lt;/p&gt;
-
-&lt;h3 id=&#34;記事を書く&#34;&gt;記事を書く&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;ローカル上で記事を書く．リアルタイムプレビューで確認．&lt;/li&gt;
-&lt;li&gt;GitHubへ&lt;code&gt;$git push&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;公開される&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;たったこれだけです．Wordpressとかレンタルブログみたいに，ブラウザからログインして編集画面に行って&amp;hellip;という手間がないのですごく楽．大抵いままではテキストエディタに下書きしてから，ブラウザにコピペで記事を書いていたので手間が省けました．公開までもターミナルからすぐにできるので本当にお手軽です．mdでかけるのも魅力的．&lt;/p&gt;
-
-&lt;p&gt;あと，ローカルサーバー起動＋ファイル更新で自動リロードしてくれるという，gulpのlivereloadみたいな機能が初めから付いています．
-表示確認しながら記事を書けるのでとても重宝してます．&lt;/p&gt;
-
-&lt;h2 id=&#34;これから追加したい機能&#34;&gt;これから追加したい機能&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;記事公開したらTwitterとFaceBook更新する&lt;/li&gt;
-&lt;li&gt;Worksページの作成&lt;/li&gt;
-&lt;li&gt;更新し忘れて失効した8ble.netをとりかえしたい&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;という感じで，新しくブログを作った話でした．&lt;/p&gt;
-
-&lt;p&gt;ブログというものをやるのが久々すぎて，文章書くのにすごい苦労しました&amp;hellip;&lt;/p&gt;</description>
     </item>
     
   </channel>
