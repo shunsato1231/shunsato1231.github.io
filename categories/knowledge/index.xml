@@ -239,8 +239,7 @@ html(lang = &#39;ja&#39;)
 
 &lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
 
-&lt;p&gt;たいしたことなんもやってないけどgulp初めてだったからここまでやるのに時間かかった．
-gulp-plumberつかってるけどjsファイルにエラーが起きるとgulpが落ちます．解決策が分かる人いたらコメント下さい．&lt;/p&gt;</description>
+&lt;p&gt;たいしたことなんもやってないけどgulp初めてだったからここまでやるのに時間かかった．&lt;/p&gt;</description>
     </item>
     
   </channel>
