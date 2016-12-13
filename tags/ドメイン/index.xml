@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8ble.me</title>
+    <link>shunsato1231.github.io/tags/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3/index.xml</link>
+    <description>Recent content on 8ble.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <atom:link href="shunsato1231.github.io/tags/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>独自ドメインを取得しました</title>
+      <link>/shunsato1231.github.io/blog/2016/12/my-domain/</link>
+      <pubDate>Tue, 13 Dec 2016 20:29:15 +0900</pubDate>
+      
+      <guid>/shunsato1231.github.io/blog/2016/12/my-domain/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;8ble.me&lt;/em&gt; で独自ドメイン取得しました!&lt;/p&gt;
+
+&lt;h2 id=&#34;以外とてこずった&#34;&gt;以外とてこずった&lt;/h2&gt;
+
+&lt;p&gt;お名前.comでドメイン取得して，DNSにGehirn Infrastructure Serviceを使ってZone Apexで公開しています．
+そんなに手間でもないし時間もかからないはずが凡ミスでかなり迷いまくって途方に暮れそうになったのでメモしておこう&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;お名前-comの設定画面わかりにくすぎるでしょ&#34;&gt;お名前.comの設定画面わかりにくすぎるでしょ&lt;/h3&gt;
+
+&lt;p&gt;お名前.comはなんだか赤色画面でゴテゴテしたバナーがたくさんあってショッピングサイトみたい．しかも設定画面わかりにくすぎです．
+外部のDNSを使う場合，ネームサーバの設定が完了したら，その後設定画面から設定の確認ができません．&lt;/p&gt;
+
+&lt;p&gt;ちゃんとメールが来るけど設定できてるのかどうか不安になりました．見落としてるのかもしれないけど&amp;hellip;
+にしてもわかりにくいです．&lt;/p&gt;
+
+&lt;h3 id=&#34;gehirn側でも戸惑いまくった&#34;&gt;Gehirn側でも戸惑いまくった&lt;/h3&gt;
+
+&lt;p&gt;Gehirnではログインにワンタイムパスワードが使われているのですが，これに関しても迷いまくって1時間くらいログインできなかった．
+6桁の数字のパスワードなんですが，確認画面では3桁目と4桁目の間にスペースがあって，この &lt;strong&gt;スペースがログインできない原因&lt;/strong&gt; でした．
+さすがにこれに気づかないで1時間迷うのはおマヌケだけど，これから使うひとはちゃんと詰めてください笑&lt;/p&gt;
+
+&lt;p&gt;あと，Aレコードを設定する時，&lt;strong&gt;エイリアス先のアドレスの最後に &amp;ldquo; . &amp;rdquo; をつけるのを忘れたらだめ&lt;/strong&gt; です．勝手に補完されてしまいます．これに気づくのに1日を費やした．&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;というわけで無駄に苦労しましたが，なんとか独自ドメインで公開することができましたとさ．&lt;/p&gt;
+
+&lt;h2 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-2/&#34;&gt;GitHub Pagesでブログを作る#2 | TANKSUZUKI.COM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
