@@ -780,6 +780,11 @@ label {
       .SingleArticle__Tags a:hover {
         text-decoration: none;
         color: #2e2e2e; }
+  .SingleArticle__Eyecatch {
+    margin: -60px auto 40px;
+    width: 50%; }
+    .SingleArticle__Eyecatch img {
+      width: 100%; }
   .SingleArticle__Text {
     width: 70%;
     margin: 15px auto; }
@@ -789,12 +794,16 @@ label {
     width: 90%; }
     .SingleArticle__Meta {
       width: 100%; }
+    .SingleArticle__Eyecatch {
+      width: 80%; }
     .SingleArticle__Text {
       width: 100%; } }
 @media only screen and (max-width: 487px) {
   .SingleArticle {
     width: 90%; }
     .SingleArticle__Meta {
+      width: 100%; }
+    .SingleArticle__Eyecatch {
       width: 100%; }
     .SingleArticle__Text {
       width: 100%; } }

@@ -175,12 +175,13 @@ $(function() {
 });
 
 //logo
- $(function() {
-    $(".Top__Logo").fitText(0.5);
-    $(".Top__LogoSub__Cat").fitText(2.3);
- });
+$(function() {
+  $(".Top__Logo").fitText(0.5);
+  $(".Top__LogoSub__Cat").fitText(2.3);
+});
 
  //link
- $(document).ready( function () {
+$(document).ready( function () {
    $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+   $('.IndexArticle__Text').click(function(){ return false;});
 })

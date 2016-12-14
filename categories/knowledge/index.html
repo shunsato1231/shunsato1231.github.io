@@ -10,7 +10,7 @@
 <meta name="generator" content="">
 <meta name="author" content="">
 <meta property="og:locale" content="ja">
-<meta property="fb:app_id" content="facebookのAppIDを入れる">
+<meta property="fb:app_id" content="1717804961881611">
 <meta property="og:title" content="Knowledge">
 <meta property="og:url" content="http://8ble.me/categories/knowledge/">
 <meta property="og:site_name" content="8ble.me">
@@ -27,8 +27,8 @@
 
 
 
-<meta property="og:image" content="http://8ble.me/images/ogp.png">
-<meta property="twitter:image" content="http://8ble.me/images/ogp.png">
+<meta property="og:image" content="http://8ble.me/img/ogp.png">
+<meta property="twitter:image" content="http://8ble.me/img/ogp.png">
 
 
 
@@ -87,7 +87,7 @@
       <i class='fa fa-male'></i>
       ABOUT
     </li></a>
-    <a href='http://8ble.me/blog'><li class='current'>
+    <a href='http://8ble.me/blog'><li>
       <i class='fa fa-book'></i>
       BLOG
     </li></a>
@@ -203,5 +203,23 @@
     });
 
   </script>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1717804961881611',
+          xfbml      : true,
+          version    : 'v2.8'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
   </body>
 </html>
+
